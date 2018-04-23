@@ -69,6 +69,10 @@ public class CameraController : MonoBehaviour {
 
         float size = 0;
 
+        /*Obtem a distância da posição da câmera e, em seguida, percorra todos os alvos 
+            * que eles devem mostrar, obtendo a distância máxima desse local (x ou y). 
+            * Em seguida, use essa distância máxima para alterar o tamanho da câmera para mostrar 
+            * todos os elementos.*/
         foreach (GameObject player in PlayerManager._instance.Players)
         {
             if (player.activeSelf) {
