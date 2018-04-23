@@ -8047,8 +8047,8 @@ MonoBehaviour:
   bulletSpeed: 1000
   PlayerNumber: 1
   gunTip: {fileID: 4489010556500064}
-  Feet: {fileID: 61425371956898230}
-  Body: {fileID: 58476490427370540}
+  Feet: {fileID: 58476490427370540}
+  Body: {fileID: 61425371956898230}
 --- !u!114 &114669221976721546
 MonoBehaviour:
   m_ObjectHideFlags: 1
